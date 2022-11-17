@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/minstyle.io@2.0.1/dist/css/minstyle.io.min.css">
+    {% block head %}{% endblock %}
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div class="ms-menu">
+  <div class="ms-menu-logo">
+    <a href=""><img src="static/img/logo.png" /></a>
+  </div>
+  <nav class="ms-menu-link">
+    <input type="checkbox" id="ms-menu-toggle" />
+    <label for="ms-menu-toggle" class="ms-menu-icon"
+    ><i class="fa fa-bars"></i
+    ></label>
+    <ul>
+      <li><a href="/static">Home</a></li>
+    </ul>
+  </nav>
+</div>
+
+  <!-- Add your site or application content here -->
+<div class="ms-card ms-fill">
+  <div class="ms-card-content">
+  {% block content %}{% endblock %}
+  </div>
+</div>
+<footer class="ms-footer ms-small">
+  <div class="container">
+    <p>Made in <a>Manhattan, KS</a> during K-state hackathon 2022</p>
+  </div>
+</footer>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="static/js/dark.min.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

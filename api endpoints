@@ -1,0 +1,255 @@
+Use: city
+Endpoint: https://api.api-ninjas.com/v1/city?name=
+Response:
+[
+  {
+    "name": "San Francisco",
+    "latitude": 37.7562,
+    "longitude": -122.443,
+    "country": "US",
+    "population": 3592294,
+    "is_capital": false
+  }
+]
+
+
+Use: Sales Tax
+Endpoint: https://api.api-ninjas.com/v1/salestax?zip_code=
+Response:
+[
+  {
+    "zip_code": "90210",
+    "total_rate": "0.102500",
+    "state_rate": "0.060000",
+    "city_rate": "0.007500",
+    "county_rate": "0.002500",
+    "additional_rate": "0.032500"
+  }
+]
+
+
+Use: Weather
+Access: https://www.visualcrossing.com/weather-api
+
+
+Use: Time
+Endpoint: https://timezoneapi.io/api/timezone/?&token=aMXHZvAEGzjOehGZsmqw
+Response:
+{
+    "meta": {
+        "code": "200"
+    },
+    "data": {
+        "ip": "66.220.144.0",
+        "city": "Menlo Park",
+        "postal": "94025",
+        "state": "California",
+        "state_code": "CA",
+        "country": "United States",
+        "country_code": "US",
+        "location": "37.459,-122.1781",
+        "timezone": {
+            "id": "America\/Los_Angeles",
+            "location": "34.05222,-118.24278",
+            "country_code": "US",
+            "country_name": "United States of America",
+            "iso3166_1_alpha_2": "US",
+            "iso3166_1_alpha_3": "USA",
+            "un_m49_code": "840",
+            "itu": "USA",
+            "marc": "xxu",
+            "wmo": "US",
+            "ds": "USA",
+            "phone_prefix": "1",
+            "fifa": "USA",
+            "fips": "US",
+            "gual": "259",
+            "ioc": "USA",
+            "currency_alpha_code": "USD",
+            "currency_country_name": "UNITED STATES",
+            "currency_minor_unit": "2",
+            "currency_name": "US Dollar",
+            "currency_code": "840",
+            "independent": "Yes",
+            "capital": "Washington",
+            "continent": "NA",
+            "tld": ".us",
+            "languages": "en-US,es-US,haw,fr",
+            "geoname_id": "6252001",
+            "edgar": ""
+        },
+        "datetime": {
+            "date": "12\/05\/2022",
+            "date_time": "12\/05\/2022 01:35:13",
+            "date_time_txt": "Monday, December 5, 2022 01:35:13",
+            "date_time_wti": "Mon, 05 Dec 2022 01:35:13 -0800",
+            "date_time_ymd": "2022-12-05T01:35:13-08:00",
+            "time": "01:35:13",
+            "month": "12",
+            "month_wilz": "12",
+            "month_abbr": "Dec",
+            "month_full": "December",
+            "month_days": "31",
+            "day": "5",
+            "day_wilz": "05",
+            "day_abbr": "Mon",
+            "day_full": "Monday",
+            "year": "2022",
+            "year_abbr": "16",
+            "hour_12_wolz": "1",
+            "hour_12_wilz": "01",
+            "hour_24_wolz": "1",
+            "hour_24_wilz": "01",
+            "hour_am_pm": "am",
+            "minutes": "35",
+            "seconds": "13",
+            "week": "49",
+            "offset_seconds": "-28800",
+            "offset_minutes": "-480",
+            "offset_hours": "-8",
+            "offset_gmt": "-08:00",
+            "offset_tzid": "America\/Los_Angeles",
+            "offset_tzab": "PST",
+            "offset_tzfull": "Pacific Standard Time",
+            "tz_string": "PST8PDT,M3.3.0/2,M11.2.0/2",
+            "dst": "false",
+            "dst_observes": "true",
+            "timeday_spe": "late_night",
+            "timeday_gen": "night"
+        }
+    }
+}
+
+
+Use: Air Quality
+Endpoint: https://api.api-ninjas.com/v1/airquality?city=
+Response:
+{
+  "overall_aqi": 55,
+  "CO": {
+    "concentration": 223.64,
+    "aqi": 2
+  },
+  "PM10": {
+    "concentration": 3.62,
+    "aqi": 3
+  },
+  "SO2": {
+    "concentration": 5.13,
+    "aqi": 7
+  },
+  "PM2.5": {
+    "concentration": 1.82,
+    "aqi": 5
+  },
+  "O3": {
+    "concentration": 60.8,
+    "aqi": 55
+  },
+  "NO2": {
+    "concentration": 9.68,
+    "aqi": 12
+  }
+}
+
+
+Use: Country
+Endpoint: https://api.api-ninjas.com/v1/country?name=
+Response:
+[
+  {
+    "gdp": "20580223",
+    "sex_ratio": "97.9",
+    "surface_area": "9833517",
+    "life_expectancy_male": "76.3",
+    "unemployment": "3.9",
+    "imports": "2567490",
+    "homicide_rate": "5",
+    "currency": {
+      "code": "USD",
+      "name": "Us Dollar"
+    },
+    "iso2": "US",
+    "gdp_growth": "2.9",
+    "employment_services": "79",
+    "urban_population_growth": "0.9",
+    "secondary_school_enrollment_female": "98.7",
+    "employment_agriculture": "1.3",
+    "capital": "Washington, D.C.",
+    "co2_emissions": "4761.3",
+    "forested_area": "33.9",
+    "tourists": "79746",
+    "exports": "1644280",
+    "life_expectancy_female": "81.3",
+    "post_secondary_enrollment_female": "102.0",
+    "post_secondary_enrollment_male": "75.0",
+    "primary_school_enrollment_female": "101.4",
+    "infant_mortality": "5.8",
+    "secondary_school_enrollment_male": "99.2",
+    "threatened_species": "1655",
+    "population": "331003",
+    "urban_population": "82.5",
+    "employment_industry": "19.7",
+    "name": "United States",
+    "pop_growth": "0.6",
+    "region": "Northern America",
+    "pop_density": "36.2",
+    "internet_users": "87.3",
+    "gdp_per_capita": "62917.9",
+    "fertility": "1.8",
+    "refugees": "1043.2",
+    "primary_school_enrollment_male": "102.2"
+  }
+]
+
+
+Use: Currency Convert
+Endpoint: https://api.api-ninjas.com/v1/convertcurrency?have=&want=&amount=
+Response:
+{
+  "old_amount": 5000,
+  "old_currency": "USD",
+  "new_currency": "EUR",
+  "new_amount": 4182.97
+}
+
+
+Use: Airports
+Endpoint: https://api.api-ninjas.com/v1/airports?name=
+Response:
+[
+  {
+    "icao": "K3GV",
+    "iata": "",
+    "name": "East Kansas City Airport",
+    "city": "Grain Valley",
+    "region": "Missouri",
+    "country": "US",
+    "elevation_ft": "835",
+    "latitude": "39.0155982971",
+    "longitude": "-94.2133026123",
+    "timezone": "America/Chicago"
+  },
+  {
+    "icao": "KMCI",
+    "iata": "MCI",
+    "name": "Kansas City International Airport",
+    "city": "Kansas City",
+    "region": "Missouri",
+    "country": "US",
+    "elevation_ft": "1026",
+    "latitude": "39.2975997925",
+    "longitude": "-94.7138977051",
+    "timezone": "America/Chicago"
+  }
+]
+
+
+Use: Traffic
+access: https://developer.tomtom.com/traffic-api/documentation/product-information/introduction
+response: MULTIPLE
+
+
+Use: News
+Access: https://newscatcherapi.com/news-api
+Response: Long Ass

@@ -1,0 +1,16 @@
+.search-box {
+    background-image: url(/static/img/search_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 35rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+

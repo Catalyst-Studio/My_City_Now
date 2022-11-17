@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="/static/js/view.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div style="height: 35rem">
+        <p id="city">{{ city }}</p>
+    <p id="country">{{ country }}</p>
+    </div>
+    <div class="ms-hero col-3 d-inline-block">
+    <div class="ms-hero-body">
+        <div class="ms-hero-subtitle">
+            <h3>Information</h3>
+        </div>
+        <div class="ms-hero-content" id="information">
+
+        </div>
+    </div>
+</div>
+    <script src="/static/js/jput.min.js"></script>
+    <script>
+    $$ = {}
+    $$.city = document.getElementById("city").innerText
+    $$.country = document.getElementById("country").innerText
+    cityInfo()
+    </script>
+{% endblock %}
